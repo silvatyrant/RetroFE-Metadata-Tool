@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #################################################################################################################################################
-#	RetroFE Metadata Link Tool - Created by Silvatyrant - 2017-07-19
+#	RetroFE Metadata Tool - Created by Silvatyrant - 2017-07-19
 #
 #	This script works based on the following assumptions:
 #
@@ -17,11 +17,11 @@
 
 
 ### Update assets_home, roms_home and rfe_home values to suit your environment ###
-assets_home="/mnt/4000GB/Games/Emulation/assets"
+assets_home=""
 av_assets="$assets_home/downloaded_images"
 gl_assets="$assets_home/gamelists"
-rfe_home="/data/emulators/RetroFE"
-roms_home="/mnt/4000GB/Games/Emulation/ROMs"
+rfe_home=""
+roms_home=""
 
 
 # WILL IMPLEMENT LATER - Will make it unnecessary to supply system-specific RetroFE and asset locations (auto-detect functionality)
